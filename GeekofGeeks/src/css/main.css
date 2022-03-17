@@ -1,0 +1,314 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* upper nav bar */
+
+#upper-nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 15.2px;
+    letter-spacing: .1px;
+    align-items: center;
+    margin: 15px 17.5px 10px 1.1%;
+
+
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+
+#top {
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    z-index: 11;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#left-nav-container {
+    margin-left: 18px;
+}
+
+.nav-left-item-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+select {
+    background-color: white;
+    border: 0;
+    text-decoration: none;
+    padding-right: 5px;
+    font-weight: 600;
+    font-family: 'Sofia Pro',
+        sans-serif;
+    font-size: 15.2px;
+    letter-spacing: .2px;
+
+}
+
+.nav-left-arrow {
+    font-size: 25px;
+}
+
+.left-nav {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.nav-left-item-list li {
+    padding-right: 10px;
+}
+
+#center-nav {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 6.8%;
+}
+
+.logo-text {
+    max-width: 155px;
+    margin-left: 10px;
+}
+
+#right-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav {
+    margin: 0 15px;
+}
+
+#search-icon {
+    font-size: 1.3em;
+}
+
+.Ndot-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.g-tran {
+    width: 19px;
+    height: 19px;
+}
+
+.account-svg {
+    margin: 0 1.6rem 0 3.2rem;
+}
+
+
+.nav-hr {
+    width: 100%;
+    height: 1.5px;
+    background-color: #ececec;
+}
+
+/* lower nav */
+
+.lower-container {
+    display: flex;
+
+}
+
+.lower-nav-ul {
+    display: flex;
+
+
+}
+
+.lower-nav-ul>li {
+    margin: 15px 10px;
+
+}
+
+.left-arrow {
+    transform: scale(-1);
+    height: 18px;
+    width: 15px;
+    margin-left: 15px;
+
+}
+
+.right-arrow {
+    height: 18px;
+    width: 15px;
+}
+
+
+
+
+/* body container */
+
+#main-container {
+    display: grid;
+    grid-template-columns: 5% 52% 38% 5%;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+#main-right {
+    display: grid;
+    grid-column: 2;
+}
+
+#main-left {
+    display: grid;
+    grid-column: 3;
+}
+
+/* right card top */
+
+.right-top-card {
+    display: flex;
+}
+
+.right-card-one {
+    width: 410px;
+    height: 230px;
+    position: relative;
+    object-position: left;
+    border-radius: 4px 0 0 4px;
+}
+
+.text-card-one {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 230px;
+    width: 280px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+
+
+.card-top-text-title {
+    color: #308d46;
+    font-size: 15px;
+}
+
+.text-card-one>h3 {
+    padding: 10px 0;
+}
+
+.text-card-one>p {
+    color: #989898;
+}
+
+.card-read-more {
+    color: #308d46;
+}
+
+
+#main-left {
+    padding-left: 50px;
+}
+
+.right-top-whatsnew>h3 {
+    font-weight: 400;
+    color: #308d46;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    padding: 15px 0 25px 0;
+}
+
+.rtc-1 {
+    font-size: 19px;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+.rtc-1>span {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    font-size: 15px;
+    padding-bottom: 20px;
+    right: 10px;
+    bottom: 0;
+    color: #308d46;
+}
+
+.rtc-1>p {
+    padding: 15px 0 0 10px;
+    font-weight: 600;
+    letter-spacing: .3px;
+}
+
+.rtt-details {
+    padding: 40px 0;
+}
+
+.rtt-details>h3 {
+    padding-bottom: 10px;
+}
+
+.rtt-details>p {
+    padding: 10px 0;
+    font-size: 18px;
+    color: #989898;
+}
+
+.tag {
+    display: flex;
+    padding-top: 25px;
+}
+
+.tag>img {
+    height: 15px;
+    padding-right: 20px;
+}
+
+.tag>ul>li {
+    margin-right: 10px;
+    font-size: 15px;
+    color: #308d46;
+}
+
+.tag>ul {
+    display: flex;
+}
