@@ -75,6 +75,14 @@ header {
 
 }
 
+.left-nav a {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.781) !important;
+}
+
+.left-nav>select>option {
+    font-size: 18px;
+}
 
 select {
     background-color: white;
@@ -86,7 +94,6 @@ select {
         sans-serif;
     font-size: 15.2px;
     letter-spacing: .2px;
-
 }
 
 .nav-left-arrow {
